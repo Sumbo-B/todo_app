@@ -26,7 +26,7 @@ const ToDo = () => {
           placeholder="Enter Task Here..."
           onChange={(e) => setTask(e.target.value)}
         />
-        <button type="submit" className="add">
+        <button type="submit">
           Add Task
         </button>
       </form>
